@@ -1,0 +1,10 @@
+/* Add to global.css */
+.gradient-light {
+  background: linear-gradient(145deg, #ffffff 0%, #f3f4f6 100%);
+  box-shadow: 20px 20px 60px #d1d1d1, -20px -20px 60px #ffffff;
+}
+
+.gradient-dark {
+  background: linear-gradient(145deg, #1f2937 0%, #111827 100%);
+  box-shadow: 20px 20px 60px #0d1219, -20px -20px 60px #1f2937;
+}

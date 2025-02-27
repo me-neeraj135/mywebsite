@@ -1,0 +1,124 @@
+{
+  "header": {
+    "title": "John Doe",
+    "nav": {
+      "about": "Acerca de",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "title": "Desarrollador Full Stack",
+    "subtitle": "Creando aplicaciones web escalables con tecnologías modernas",
+    "ctaPrimary": "Contáctame",
+    "ctaSecondary": "Ver proyectos"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Experto en una amplia gama de tecnologías web modernas. Aprendiendo y adaptándome continuamente a nuevas tecnologías.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "skills": [
+          "React",
+          "Vue",
+          "Angular",
+          "Svelte",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+          "Node.js",
+          "Express",
+          "Django",
+          "Flask",
+          "Ruby on Rails",
+          "Java",
+          "C#",
+          "PHP"
+        ]
+      },
+      {
+        "name": "Bases de datos",
+        "skills": [
+          "MongoDB",
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+          "Firebase",
+          "DynamoDB",
+          "Cassandra",
+          "Redis"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Travis CI",
+          "CircleCI",
+          "GitHub Actions",
+          "AWS",
+          "Azure"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description1": "Desarrollador full-stack con más de 5 años de experiencia en la creación de aplicaciones web escalables. Apasionado por resolver problemas complejos con código limpio y eficiente.",
+    "description2": "Especializado en tecnologías web modernas con un enfoque en la optimización del rendimiento y la experiencia del usuario. Siempre aprendiendo y adaptándome a nuevas tecnologías.",
+    "experienceTitle": "Experiencia profesional",
+    "experiences": [
+      {
+        "position": "Desarrollador Full Stack Senior",
+        "company": "Tech Corp Inc.",
+        "duration": "2020 - Presente"
+      },
+      {
+        "position": "Ingeniero Frontend",
+        "company": "Startup Hub",
+        "duration": "2018 - 2020"
+      }
+    ],
+    "educationTitle": "Educación",
+    "education": [
+      {
+        "degree": "Licenciatura en Ciencias de la Computación",
+        "university": "Universidad Estatal",
+        "duration": "2014 - 2018"
+      }
+    ]
+  },
+  "footer": {
+    "aboutTitle": "Sobre mí",
+    "aboutText": "Desarrollador full-stack apasionado por la creación de aplicaciones web robustas con tecnologías modernas.",
+    "linksTitle": "Enlaces rápidos",
+    "links": [
+      { "name": "Portafolio", "url": "#projects" },
+      { "name": "Blog", "url": "#blog" },
+      { "name": "Currículum", "url": "#resume" },
+      { "name": "Política de privacidad", "url": "#privacy" }
+    ],
+    "contactTitle": "Información de contacto",
+    "contact": {
+      "email": "contact@example.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "Nueva York, EE.UU."
+    },
+    "newsletterTitle": "Boletín informativo",
+    "newsletterPlaceholder": "Introduce tu correo electrónico",
+    "newsletterButton": "Suscribirse",
+    "copyright": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba"
+  }
+}

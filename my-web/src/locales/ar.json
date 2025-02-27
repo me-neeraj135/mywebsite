@@ -1,0 +1,168 @@
+{
+  "header": {
+    "title": "جون دو",
+    "nav": {
+      "about": "حول",
+      "skills": "المهارات",
+      "projects": "المشاريع",
+      "experience": "الخبرة",
+      "contact": "اتصل"
+    }
+  },
+  "hero": {
+    "title": "مطور ويب متكامل",
+    "subtitle": "بناء تطبيقات ويب قابلة للتطوير باستخدام التقنيات الحديثة",
+    "ctaPrimary": "اتصل بي",
+    "ctaSecondary": "عرض المشاريع"
+  },
+  "skills": {
+    "title": "المهارات",
+    "description": "متقن لمجموعة واسعة من تقنيات الويب الحديثة. أتعلم باستمرار وأتكيف مع التقنيات الجديدة.",
+    "categories": [
+      {
+        "name": "الواجهة الأمامية",
+        "skills": [
+          "React",
+          "Vue",
+          "Angular",
+          "Svelte",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "الخلفية",
+        "skills": [
+          "Node.js",
+          "Express",
+          "Django",
+          "Flask",
+          "Ruby on Rails",
+          "Java",
+          "C#",
+          "PHP"
+        ]
+      },
+      {
+        "name": "قواعد البيانات",
+        "skills": [
+          "MongoDB",
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+          "Firebase",
+          "DynamoDB",
+          "Cassandra",
+          "Redis"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Travis CI",
+          "CircleCI",
+          "GitHub Actions",
+          "AWS",
+          "Azure"
+        ]
+      },
+      {
+        "name": "المهارات الشخصية",
+        "skills": [
+          "التواصل الفعال",
+          "فهم الثقافات المختلفة",
+          "الاستماع النشط",
+          "مهارات التفاوض",
+          "الذكاء العاطفي",
+          "القدرة على التكيف",
+          "إدارة الوقت",
+          "حل النزاعات",
+          "إدارة علاقات العملاء",
+          "آداب العمل",
+          "حل المشكلات",
+          "مهارات العرض",
+          "الاحترافية",
+          "التعاون في الفريق",
+          "الصبر والتعاطف"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "المشاريع",
+    "list": [
+      {
+        "name": "تطبيق ويب متكامل باستخدام React",
+        "description": "تطبيق ويب حديث متكامل يستخدم React في الواجهة الأمامية و Node.js مع Express في الخلفية.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB"],
+        "link": "https://example.com/react-fullstack"
+      },
+      {
+        "name": "مشروع API باستخدام Node.js",
+        "description": "واجهة برمجية RESTful مبنية باستخدام Node.js و Express، تتضمن المصادقة والتكامل مع قاعدة بيانات.",
+        "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
+        "link": "https://example.com/node-api"
+      },
+      {
+        "name": "موقع تجارة إلكترونية",
+        "description": "منصة تجارة إلكترونية متكاملة مع بوابة دفع ومصادقة المستخدمين.",
+        "technologies": ["React", "Next.js", "Stripe", "Firebase"],
+        "link": "https://example.com/ecommerce"
+      },
+      {
+        "name": "منصة البث المباشر",
+        "description": "تطبيق بث مباشر يدعم بث الفيديو في الوقت الفعلي وتفاعل المستخدمين.",
+        "technologies": [
+          "WebRTC",
+          "Node.js",
+          "Socket.io",
+          "AWS Media Services"
+        ],
+        "link": "https://example.com/live-stream"
+      },
+      {
+        "name": "نظام حجز الفنادق",
+        "description": "نظام حجز فنادق يسمح للمستخدمين بحجز الغرف مع تحديد الأسعار والتوافر الديناميكي.",
+        "technologies": ["Angular", "NestJS", "PostgreSQL", "Docker"],
+        "link": "https://example.com/hotel-booking"
+      },
+      {
+        "name": "منصة التواصل الاجتماعي",
+        "description": "موقع تواصل اجتماعي يحتوي على ميزات مثل المنشورات والتعليقات والإعجابات والمراسلة.",
+        "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+        "link": "https://example.com/social-media"
+      }
+    ]
+  },
+  "about": {
+    "title": "من أنا",
+    "description1": "مطور ويب متكامل بخبرة تزيد عن 5 سنوات في بناء تطبيقات ويب قابلة للتطوير. شغوف بحل المشكلات المعقدة باستخدام كود نظيف وفعال.",
+    "description2": "متخصص في تقنيات الويب الحديثة مع التركيز على تحسين الأداء وتجربة المستخدم. أتعلم باستمرار وأتكيف مع التقنيات الجديدة.",
+    "experienceTitle": "الخبرة المهنية",
+    "experiences": [
+      {
+        "position": "كبير مطوري الويب المتكامل",
+        "company": "Tech Corp Inc.",
+        "duration": "2020 - حتى الآن"
+      },
+      {
+        "position": "مهندس واجهات أمامية",
+        "company": "Startup Hub",
+        "duration": "2018 - 2020"
+      }
+    ],
+    "educationTitle": "التعليم",
+    "education": [
+      {
+        "degree": "بكالوريوس في علوم الحاسب",
+        "university": "جامعة الولاية",
+        "duration": "2014 - 2018"
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "header": {
+    "title": "John Doe",
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "Full Stack Developer",
+    "subtitle": "Building scalable web applications with modern technologies",
+    "ctaPrimary": "Contact Me",
+    "ctaSecondary": "View Projects"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Proficient in a wide range of modern web technologies. Continuously learning and adapting to new technologies.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "skills": [
+          "React",
+          "Vue",
+          "Angular",
+          "Svelte",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+          "Node.js",
+          "Express",
+          "Django",
+          "Flask",
+          "Ruby on Rails",
+          "Java",
+          "C#",
+          "PHP"
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          "MongoDB",
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+          "Firebase",
+          "DynamoDB",
+          "Cassandra",
+          "Redis"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Travis CI",
+          "CircleCI",
+          "GitHub Actions",
+          "AWS",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Soft-Skills",
+        "skills": [
+          "Effective Communication",
+          "Cross-Cultural Understanding",
+          "Active Listening",
+          "Negotiation Skills",
+          "Emotional Intelligence",
+          "Adaptability",
+          "Time Management",
+          "Conflict Resolution",
+          "Client Relationship Management",
+          "Business Etiquette",
+          "Problem-Solving",
+          "Presentation Skills",
+          "Professionalism",
+          "Team Collaboration",
+          "Patience and Empathy"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "name": "React Full Stack App",
+        "description": "A modern full-stack web application using React for the frontend and Node.js with Express for the backend.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB"],
+        "link": "https://example.com/react-fullstack"
+      },
+      {
+        "name": "Node.js API Project",
+        "description": "A RESTful API built with Node.js and Express, featuring authentication and database integration.",
+        "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
+        "link": "https://example.com/node-api"
+      },
+      {
+        "name": "E-commerce Website",
+        "description": "A fully functional e-commerce platform with payment gateway integration and user authentication.",
+        "technologies": ["React", "Next.js", "Stripe", "Firebase"],
+        "link": "https://example.com/ecommerce",
+        "url": "https://cdn.pixabay.com/photo/2022/03/24/22/57/online-shop-7090027_1280.png"
+      },
+      {
+        "name": "Live Streaming Platform",
+        "description": "A live streaming application supporting real-time video broadcasting and user interaction.",
+        "technologies": [
+          "WebRTC",
+          "Node.js",
+          "Socket.io",
+          "AWS Media Services"
+        ],
+        "link": "https://example.com/live-stream",
+        "url": "https://cdn.pixabay.com/photo/2022/03/24/22/57/online-shop-7090027_1280.png"
+      },
+      {
+        "name": "Hotel Booking System",
+        "description": "A hotel reservation system allowing users to book rooms with dynamic pricing and availability.",
+        "technologies": ["Angular", "NestJS", "PostgreSQL", "Docker"],
+        "link": "https://example.com/hotel-booking"
+      },
+      {
+        "name": "Social Media Platform",
+        "description": "A social networking site with features like posts, comments, likes, and messaging.",
+        "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+        "link": "https://example.com/social-media"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "Full-stack developer with 5+ years of experience building scalable web applications. Passionate about solving complex problems with clean, efficient code.",
+    "description2": "Specialized in modern web technologies with a focus on performance optimization and user experience. Continuously learning and adapting to new technologies.",
+    "experienceTitle": "Professional Experience",
+    "experiences": [
+      {
+        "position": "Senior Full Stack Developer",
+        "company": "Tech Corp Inc.",
+        "duration": "2020 - Present"
+      },
+      {
+        "position": "Frontend Engineer",
+        "company": "Startup Hub",
+        "duration": "2018 - 2020"
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "degree": "B.S. in Computer Science",
+        "university": "State University",
+        "duration": "2014 - 2018"
+      }
+    ]
+  },
+  "footer": {
+    "aboutTitle": "About Me",
+    "aboutText": "Passionate full-stack developer creating robust web applications with modern technologies.",
+    "linksTitle": "Quick Links",
+    "links": [
+      { "name": "Portfolio", "url": "#projects" },
+      { "name": "Blog", "url": "#blog" },
+      { "name": "Resume", "url": "#resume" },
+      { "name": "Privacy Policy", "url": "#privacy" }
+    ],
+    "contactTitle": "Contact Info",
+    "contact": {
+      "email": "contact@example.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "New York, USA"
+    },
+    "newsletterTitle": "Newsletter",
+    "newsletterPlaceholder": "Enter your email",
+    "newsletterButton": "Subscribe",
+    "copyright": "All rights reserved.",
+    "backToTop": "Back to Top"
+  }
+}

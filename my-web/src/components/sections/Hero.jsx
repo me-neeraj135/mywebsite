@@ -7,7 +7,7 @@ import {
   ChevronDoubleDownIcon,
 } from '@heroicons/react/24/solid'
 import { GlobeAltIcon } from '@heroicons/react/24/outline'
-import { AnimatedText } from '../common/Animated'
+import { AnimatedText } from '../common/AnimatedText'
 import { useTheme } from '../../context/ThemeContext'
 
 const Hero = () => {
@@ -26,8 +26,8 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-40">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-40 ">
+      <div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left">
@@ -37,7 +37,7 @@ const Hero = () => {
               variants={variants}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-gray-500">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-[#1E2939]">
                 <AnimatedText text={t('hero.title')} />
               </h1>
 
@@ -45,7 +45,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
-                className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
+                className="text-xl md:text-2xl dark:text-[#1E2939] mb-8"
               >
                 {t('hero.subtitle')}
               </motion.p>

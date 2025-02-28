@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "John Doe",
+    "title": "Neeraj Kumar",
     "nav": {
       "about": "About",
       "skills": "Skills",
@@ -77,15 +77,15 @@
           "Effective Communication",
           "Cross-Cultural Understanding",
           "Active Listening",
-          "Negotiation Skills",
+
           "Emotional Intelligence",
           "Adaptability",
           "Time Management",
           "Conflict Resolution",
-          "Client Relationship Management",
+
           "Business Etiquette",
           "Problem-Solving",
-          "Presentation Skills",
+
           "Professionalism",
           "Team Collaboration",
           "Patience and Empathy"
@@ -143,7 +143,7 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "Full-stack developer with 5+ years of experience building scalable web applications. Passionate about solving complex problems with clean, efficient code.",
+    "description1": "Full-stack developer with 2+ years of experience building scalable web applications. Passionate about solving complex problems with clean, efficient code.",
     "description2": "Specialized in modern web technologies with a focus on performance optimization and user experience. Continuously learning and adapting to new technologies.",
     "experienceTitle": "Professional Experience",
     "experiences": [

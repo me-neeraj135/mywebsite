@@ -17,10 +17,8 @@ const ProjectCard = ({ project }) => {
         />
       </div>
       <div className="p-4 bg-white dark:bg-gray-800">
-        <h3 className="text-xl font-bold mb-2">{project.name}</h3>
-        <p className="text-gray-600 dark:text-gray-300">
-          {project.description}
-        </p>
+        <h3 className="text-xl font-bold mb-2 text-white ">{project.name}</h3>
+        <p className="text-gray-600 dark:text-white">{project.description}</p>
       </div>
     </motion.div>
   )

@@ -2,7 +2,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { AnimatedSection, AnimatedText } from '../common/Animated'
+import { AnimatedSection, AnimatedText } from '../common/AnimatedText'
 import {
   CodeBracketIcon,
   CommandLineIcon,
@@ -23,12 +23,12 @@ const About = () => {
 
   return (
     <AnimatedSection id="about">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12">
+      <div>
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-[#1E2939]  mb-12 text-center">
           {t('about.title')}
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 container mx-auto  px-4 sm:px-6 lg:px-8">
           {/* Left Column - Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -36,10 +36,10 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-gray-600 dark:text-[#1E2939] ">
               {t('about.description1')}
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-gray-600 dark:text-[#1E2939] ">
               {t('about.description2')}
             </p>
 

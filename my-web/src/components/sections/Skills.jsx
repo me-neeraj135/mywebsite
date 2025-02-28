@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { AnimatedSection, AnimatedText } from '../common/Animated'
+import { AnimatedSection, AnimatedText } from '../common/AnimatedText'
 import {
   CodeBracketIcon,
   CpuChipIcon,
@@ -72,44 +72,23 @@ const Skills = () => {
   )
   if (!softSkills) return null
 
-  // const devOps = t('skills.categories', { returnObjects: true }).find(
-  //   category.name === 'DevOps',
-  // )
+  const devOps = t('skills.categories', { returnObjects: true })?.find(
+    (category) => category.name === 'DevOps',
+  )
+  if (!devOps) return null
   return (
     <AnimatedSection id="skills">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-500 mb-12 text-center">
+      <div>
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-[#1E2939] mb-12 text-center">
           {t('skills.title')}
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
           {/* Technical Skills */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg"
-          >
-            <div className="flex items-center mb-8">
-              <CodeBracketIcon className="w-8 h-8 text-blue-500 mr-3" />
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
-                {t('skills.description')}
-              </h3>
-            </div>
 
-            {t('skills.categories', { returnObjects: true }).map(
-              (skill, index) => (
-                <SkillBar
-                  key={index}
-                  name={skill.name}
-                  level={skill.level}
-                  color={darkMode ? 'bg-blue-400' : 'bg-blue-600'}
-                />
-              ),
-            )}
-          </motion.div>
-          {/* Frontend Skills */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 container mx-auto  px-4 sm:px-6 lg:px-8">
+            {/* Frontend Skills */}
 
-          <div className="space-y-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -136,6 +115,7 @@ const Skills = () => {
                 </div>
               </div>
             </motion.div>
+
             {/* Backend Skills */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -163,6 +143,7 @@ const Skills = () => {
                 </div>
               </div>
             </motion.div>
+
             {/* Databases Skills */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -190,6 +171,7 @@ const Skills = () => {
                 </div>
               </div>
             </motion.div>
+
             {/* soft Skills */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -217,6 +199,8 @@ const Skills = () => {
                 </div>
               </div>
             </motion.div>
+
+            {/*  devOps*/}
           </div>
         </div>
       </div>

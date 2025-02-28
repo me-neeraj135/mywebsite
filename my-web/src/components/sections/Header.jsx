@@ -11,11 +11,11 @@ const Header = ({ changeLanguage }) => {
 
   return (
     <header
-      className={`sticky top-0 z-50 ${
+      className={`sticky top-0 z-50  ${
         darkMode ? 'bg-gray-900' : 'bg-white'
       } shadow-sm`}
     >
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto  px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
           <motion.h1
             initial={{ opacity: 0 }}
@@ -24,7 +24,6 @@ const Header = ({ changeLanguage }) => {
           >
             {t('header.title')}
           </motion.h1>
-
           <div className="flex items-center space-x-4">
             <LanguageSwitcher changeLanguage={changeLanguage} />
             <ThemeToggle />
